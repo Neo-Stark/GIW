@@ -18,6 +18,7 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "start-app": "electron .",
     "start": "electron-forge start",
     "build": "react-scripts build",
     "test": "react-scripts test",
