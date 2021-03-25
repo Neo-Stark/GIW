@@ -1,0 +1,54 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(assembly, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: indexer / assembly, searcher / assembly, assembly[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/fran/MEGA/universidad/GIW/motorBusqueda/searcher/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/fran/MEGA/universidad/GIW/motorBusqueda/indexer/target/scala-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library-2.13.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'NOTICE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'LICENSE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to a file[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'rename' was applied to 2 files[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: bf018108ce4c5f3495d48d88f07cc2df12a72cf0[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-queries-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-sandbox-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-analyzers-common-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library-2.13.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-core-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-queryparser-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: scala-library-2.13.5.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-queries-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-sandbox-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-analyzers-common-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-core-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mIncluding: lucene-queryparser-8.8.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'NOTICE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE.txt' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE.txt' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'LICENSE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.codecs.PostingsFormat' with strategy 'filterDistinctLines'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to a file[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'filterDistinctLines' was applied to a file[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'rename' was applied to 4 files[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 3c32f2d700ab04f5f6978439e3082cc9ffd5c97e[0m
+[0m[[0m[0minfo[0m] [0m[0mChecking every *.class/*.jar file's SHA-1.[0m
+[0m[[0m[0minfo[0m] [0m[0mMerging files...[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'NOTICE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/NOTICE.txt' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/LICENSE.txt' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'LICENSE' with strategy 'rename'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/MANIFEST.MF' with strategy 'discard'[0m
+[0m[[0m[33mwarn[0m] [0m[0mMerging 'META-INF/services/org.apache.lucene.codecs.PostingsFormat' with strategy 'filterDistinctLines'[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'discard' was applied to a file[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'filterDistinctLines' was applied to a file[0m
+[0m[[0m[33mwarn[0m] [0m[0mStrategy 'rename' was applied to 4 files[0m
+[0m[[0m[0minfo[0m] [0m[0mSHA-1: 562b4cba9fdb84d7fbbdb7acd6ff7bd7a22e9053[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 10 s, completed 24 mar. 2021 19:46:48[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

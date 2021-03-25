@@ -1,0 +1,98 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (JetBrains s.r.o. Java 11.0.9.1)
+[debug]       Load.loadUnit: plugins took 106.435143ms
+[debug]       Load.loadUnit: defsScala took 0.286069ms
+[debug] [Loading] Scanning directory /home/fran/.sbt/1.0/plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/fran/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 30.79113 ms
+[debug]           Load.resolveProject(global-plugins) took 51.437041ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /home/fran/.sbt/1.0/plugins, plugins: List(<none>))) took 138.332975ms
+[debug] [Loading] Done in /home/fran/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 168.690258ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.313154ms
+[debug]     Load.loadUnit(file:/home/fran/.sbt/1.0/plugins/, ...) took 288.607936ms
+[debug]   Load.apply: load took 519.378554ms
+[debug]   Load.apply: resolveProjects took 8.097378ms
+[debug]   Load.apply: finalTransforms took 103.415243ms
+[debug]   Load.apply: config.delegates took 7.758931ms
+[debug]   Load.apply: Def.make(settings)... took 583.927474ms
+[debug]   Load.apply: structureIndex took 125.32349ms
+[debug]   Load.apply: mkStreams took 10.702624ms
+[info] loading global plugins from /home/fran/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3074.882082ms
+[debug]           Load.loadUnit: plugins took 13.316147ms
+[debug]           Load.loadUnit: defsScala took 0.004287ms
+[debug] [Loading] Scanning directory /home/fran/MEGA/universidad/GIW/motorBusqueda/project
+[debug]             Load.loadUnit: mkEval took 7.490662ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/fran/MEGA/universidad/GIW/motorBusqueda/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.913961 ms
+[info] loading settings for project motorbusqueda-build from plugins.sbt ...
+[debug]               Load.resolveProject(motorbusqueda-build) took 2.568756ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id motorbusqueda-build, base: /home/fran/MEGA/universidad/GIW/motorBusqueda/project, plugins: List(<none>))) took 5.157137ms
+[debug] [Loading] Done in /home/fran/MEGA/universidad/GIW/motorBusqueda/project, returning: (motorbusqueda-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 114.4112ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.501586ms
+[debug]         Load.loadUnit(file:/home/fran/MEGA/universidad/GIW/motorBusqueda/project/, ...) took 132.439914ms
+[debug]       Load.apply: load took 133.738174ms
+[debug]       Load.apply: resolveProjects took 0.092859ms
+[debug]       Load.apply: finalTransforms took 9.094426ms
+[debug]       Load.apply: config.delegates took 0.399928ms
+[debug]       Load.apply: Def.make(settings)... took 124.689855ms
+[debug]       Load.apply: structureIndex took 34.861304ms
+[debug]       Load.apply: mkStreams took 0.00317ms
+[info] loading project definition from /home/fran/MEGA/universidad/GIW/motorBusqueda/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 552.190436ms
+[debug]     Load.loadUnit: defsScala took 0.039609ms
+[debug] [Loading] Scanning directory /home/fran/MEGA/universidad/GIW/motorBusqueda
+[debug]       Load.loadUnit: mkEval took 0.255123ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /home/fran/MEGA/universidad/GIW/motorBusqueda, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbtide.ConfigPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.567651 ms
+[info] loading settings for project motorbusqueda from build.sbt ...
+[debug]         Load.resolveProject(motorbusqueda) took 1.735046ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id motorbusqueda, base: /home/fran/MEGA/universidad/GIW/motorBusqueda, plugins: List(<none>))) took 4.848835ms
+[debug] [Loading] Done in /home/fran/MEGA/universidad/GIW/motorBusqueda, returning: (motorbusqueda)
+[debug]     Load.loadUnit: loadedProjectsRaw took 2798.346384ms
+[debug]     Load.loadUnit: cleanEvalClasses took 2.91106ms
+[debug]   Load.loadUnit(file:/home/fran/MEGA/universidad/GIW/motorBusqueda/, ...) took 3354.319624ms
+[debug] Load.apply: load took 3356.644663ms
+[debug] Load.apply: resolveProjects took 0.116194ms
+[debug] Load.apply: finalTransforms took 13.973399ms
+[debug] Load.apply: config.delegates took 0.767234ms
+[debug] Load.apply: Def.make(settings)... took 114.489996ms
+[debug] Load.apply: structureIndex took 22.666146ms
+[debug] Load.apply: mkStreams took 0.002213ms
+[info] set current project to motorBusqueda (in build file:/home/fran/MEGA/universidad/GIW/motorBusqueda/)
+[warn] there's a key that's not used by any other settings/tasks:
+[warn]  
+[warn] * motorbusqueda / idePackagePrefix
+[warn]   +- /home/fran/MEGA/universidad/GIW/motorBusqueda/build.sbt:7
+[warn]  
+[warn] note: a setting might still be used by a command; to exclude a key from this `lintUnused` check
+[warn] either append it to `Global / excludeLintKeys` or call .withRank(KeyRanks.Invisible) on the key
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(shell, None, None)
+[info] sbt server started at local:///home/fran/.sbt/1.0/server/48c49e1164b65f41010c/sock
+[info] started sbt server

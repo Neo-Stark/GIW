@@ -1,0 +1,11 @@
+#Dependencies
+**/node_modules
+
+#Configuration
+**/.vscode
+
+#Production
+**/build
+
+#Documentation
+**/*.odt*

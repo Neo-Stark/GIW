@@ -1,0 +1,38 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/fran/MEGA/universidad/GIW/motorBusqueda/target/scala-2.13/classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fran/MEGA/universidad/GIW/motorBusqueda/src/main/scala/GUI.scala:12:3: Symbol 'type javafx.event.EventTarget' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.stage.Window'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type EventTarget is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Window.class' was compiled against an incompatible version of javafx.event.[0m
+[0m[[0m[31merror[0m] [0m[0m  stage = new PrimaryStage {[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fran/MEGA/universidad/GIW/motorBusqueda/src/main/scala/GUI.scala:14:17: Symbol 'term javafx.css' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'trait scalafx.css.Styleable'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that term css is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Styleable.class' was compiled against an incompatible version of javafx.[0m
+[0m[[0m[31merror[0m] [0m[0m    scene = new Scene {[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fran/MEGA/universidad/GIW/motorBusqueda/src/main/scala/GUI.scala:6:8: Symbol 'type javafx.scene.Scene' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.scene.Scene'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Scene is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Scene.class' was compiled against an incompatible version of javafx.scene.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.Scene[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fran/MEGA/universidad/GIW/motorBusqueda/src/main/scala/GUI.scala:7:8: Symbol 'type javafx.scene.layout.StackPane' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.scene.layout.StackPane'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type StackPane is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'StackPane.class' was compiled against an incompatible version of javafx.scene.layout.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.layout.StackPane[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/fran/MEGA/universidad/GIW/motorBusqueda/src/main/scala/GUI.scala:9:8: Symbol 'type javafx.scene.shape.Rectangle' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'class scalafx.scene.shape.Rectangle'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Rectangle is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Rectangle.class' was compiled against an incompatible version of javafx.scene.shape.[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafx.scene.shape.Rectangle[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed 25-feb-2021 18:47:53[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

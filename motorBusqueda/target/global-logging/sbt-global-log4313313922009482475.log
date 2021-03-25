@@ -1,0 +1,8 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(project indexer; package, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(project indexer, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to indexer (in build file:/home/fran/MEGA/universidad/GIW/motorBusqueda/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(package, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / package[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 0 s, completed 24 mar. 2021 12:12:57[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
